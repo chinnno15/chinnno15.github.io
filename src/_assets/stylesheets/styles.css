@@ -1,0 +1,61 @@
+@import 'utils/_tailwind.css';
+@import 'utils/_accessibility.css';
+
+a {
+	/*@apply text-ws-blue-500 underline;*/
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.lead {
+	line-height: 1.05;
+	padding-top: 20vmin;
+	padding-bottom: 10vmin;
+}
+
+.lead mark {
+	background-color: transparent;
+	color: darkolivegreen;
+}
+
+.site-footer ul {
+	display: flex;
+	align-items: center;
+	gap: 2vmin;
+}
+
+.reset-list-style {
+	list-style: none;
+	margin: 0;
+}
+
+.site-footer {
+	text-align: center;
+	font-size: 2vmin;
+	padding: 10vmin 6vmin 6vmin 6vmin;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8em;
+}
+.site-footer ul svg {
+	width: 2rem;
+	height: 2rem;
+}
+svg {
+	display: block;
+	max-width: 100%;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}

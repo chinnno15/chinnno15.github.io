@@ -1,8 +1,8 @@
 module.exports = {
-	"title": "Jose Oliveros - Fullstack Developer",
+	"title": "José Oliveros - Fullstack Developer",
 	"description": "",
 	"url": "https://joliveros.com",
-	"author": "Jose Oliveros",
+	"author": "José Oliveros",
 	"meta_data": {
 		"twitter": "@chuliamis",
 		"opengraph_default": "/static/opengraph-default.jpg"

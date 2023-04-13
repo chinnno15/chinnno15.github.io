@@ -16,16 +16,20 @@
 	"author": "Chris Collins",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.0-canary.33",
-		"autoprefixer": "^10.4.13",
+		"@11ty/eleventy": "^2.0.1",
+		"autoprefixer": "^10.4.14",
 		"del-cli": "^4.0.1",
-		"esbuild": "^0.17.2",
+		"esbuild": "^0.17.16",
 		"html-minifier": "^4.0.0",
-		"luxon": "^3.2.1",
+		"luxon": "^3.3.0",
+		"markdown-it": "^13.0.1",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.21",
 		"postcss-cli": "^10.1.0",
 		"postcss-import": "^15.1.0",
-		"tailwindcss": "^3.2.4"
+		"tailwindcss": "^3.3.1"
+	},
+	"dependencies": {
+		"markdown-it-figure": "^0.2.0"
 	}
 }

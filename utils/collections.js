@@ -27,4 +27,10 @@ module.exports = {
 	//    // returning an array in addCollection works in Eleventy 0.5.3
 	//    return [...tagSet];
 	//  }
+	work: function (collectionApi) {
+		return collectionApi.getFilteredByGlob("src/work/**/*.md")
+			.sort(function (a, b) {
+				return a.startDate - b.startDate;
+			});
+	}
 }

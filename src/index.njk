@@ -1,24 +1,54 @@
 ---
 layout: base.njk
-title: Jose Oliveros
+title: José Oliveros
 description:
+pagination:
+  data: collections.work
+  size: 10
 ---
 
-<main id="main" class="p-6 md:p-12 lg:p-16 border-t-8 border-gray-200">
-  <h1 class="lead fade-in-bottom" id="about">I'm Jose <span class="sr-only">Oliveros</span> — a <mark>Fullstack Engineer</mark> based in Mexico.</h1>
+<main id="main" class="max-w-[60rem] mx-auto px-[2rem] pt-[1rem]">
+  <h1 class="my-[16rem] text-[2.4rem] leading-[2.9rem] font-bold" id="about">Hi there! I'm José <span class="sr-only">Oliveros</span> — a
+    <mark class="text-[#16a085] bg-transparent">Fullstack Engineer</mark>
+    based in Mexico.
+  </h1>
   <div class="fade-in-bottom delay-300">
-    <p>I am a Full Stack and React Native Engineer with 12 years of experience in developing high-quality applications. I excel in React, React Native, Node, and Python, and have experience leading Agile teams in a remote environment.</p>
+    <p>I am a Full Stack and React Native Engineer with 12 years of experience in developing high-quality applications.
+      I excel in React, React Native, Node, and Python, and have experience leading Agile teams in a remote
+      environment.</p>
   </div>
-  <p>
+  <div class="mt-[9rem]">
+    <h1>Past Work</h1>
+    <div class="grid grid-cols-3 gap-4 mt-[1rem]">
+      {% set items = pagination.items | reverse %}
 
+      {% for entry in items %}
+        <a href="{{ entry.url }}">
+          <article>
+            <Figure style="background-color: {{ entry.data.backgroundColor }};">
+              <picture>
+                <img src="{{ entry.url | url }}{{ entry.data.cover }}" width="960" height="582" alt="NFORS Exposure App" loading="lazy"
+                     decoding="async">
+              </picture>
+            </Figure>
+            <div class="mb-[1rem]">
+              <h3 class="font-bold my-[1rem] highlight">{{ entry.data.title }}</h3>
+              <p class="text-[0.7rem] font-light">{{entry.data.description}}</p>
+            </div>
 
+            <p class="text-[0.6rem] font-light">{{ entry.data.startDate | year }}</p>
+          </article>
+        </a>
+      {% endfor %}
 
-
-  </p>
-    <div class="max-w-xl">
-        <footer class="text-xs text-gray-500 mt-12 border-t border-gray-100 pt-6">
-            <p>Proudly crafted by <a href="https://joliveros.com">Jose Oliveros</a>
-            </p>
-        </footer>
     </div>
+  </div>
+
+
+<!--  <div class="max-w-xl">-->
+<!--    <footer class="text-xs text-gray-500 mt-12 border-t border-gray-100 pt-6">-->
+<!--      <p>Proudly crafted by <a href="https://joliveros.com">José Oliveros</a>-->
+<!--      </p>-->
+<!--    </footer>-->
+<!--  </div>-->
 </main>

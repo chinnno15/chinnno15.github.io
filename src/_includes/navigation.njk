@@ -1,5 +1,6 @@
-<nav
-  class="
+<header class="absolute w-full mt-[3rem]">
+  <nav
+    class="
           flex flex-wrap
           items-center
           justify-between
@@ -7,53 +8,53 @@
           py-4
           md:py-0
           px-4
-          text-lg text-gray-700
-          bg-white
+          font-medium
+          text-[1rem]
         "
->
-  <div>
-    <a href="#" class="">
-      Jose Oliveros
-    </a>
-  </div>
-
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    id="menu-button"
-    class="h-6 w-6 cursor-pointer md:hidden block"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
   >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
-      d="M4 6h16M4 12h16M4 18h16"
-    />
-  </svg>
+    <div>
+      <a href="/" class="hover:text-gray-400">
+        José Oliveros
+      </a>
+    </div>
 
-  <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-    <ul
-      class="
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="menu-button"
+      class="h-6 w-6 cursor-pointer md:hidden block"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16"
+      />
+    </svg>
+
+    <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+      <ul
+        class="
               pt-4
-              text-base text-gray-700
               md:flex
               md:justify-between
               md:pt-0"
-    >
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-        >Blog</a
-        >
-      </li>
-      <li>
-        <a
-          class="md:p-4 py-2 block hover:text-green-400 text-purple-500"
-          href="#"
-        >Contact</a
-        >
-      </li>
-    </ul>
-  </div>
-</nav>
+      >
+<!--        <li>-->
+<!--          <a class="md:p-4 py-2 block hover:text-purple-400" href="#"-->
+<!--          >Blog</a-->
+<!--          >-->
+<!--        </li>-->
+        <li>
+          <a
+            class="md:p-4 py-2 block hover:text-gray-400"
+            href="#"
+          >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

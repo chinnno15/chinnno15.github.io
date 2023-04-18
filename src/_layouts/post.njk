@@ -2,18 +2,18 @@
 layout: "base.njk"
 ---
 
-<div style="background-color: {{ backgroundColor }};" class="mx-auto">
+<div style="background-color: {{ backgroundColor }};" class="mx-auto pt-[1rem] md:pt-[3rem]">
   <figure class="max-w-[60rem] mx-auto">
     <picture class="mx-auto">
       <img src="{{ page.url | url }}{{ cover }}" width="960" height="582" alt="NFORS Exposure App" loading="lazy"
-           decoding="async">
+           decoding="async" class="mx-auto">
     </picture>
   </figure>
 </div>
-<main id="post" class="max-w-[60rem] space-y-[4rem] mt-[2rem] mx-auto sm:px-[2rem]">
-  <div class="pb-[1em]">
+<main id="post" class="max-w-[60rem] space-y-[0rem] mt-[3rem] mx-auto px-[2rem]">
+  <div class="pb-[4em]">
     <h1 class="float-left font-bold">{{ title }}</h1>
-    <time class="float-right pt-[0.3rem]" datetime="{{ startDate | year }}">{{ startDate | year }} - {{ endDate | year
+    <time class="float-right pt-[0.0rem]" datetime="{{ startDate | year }}">{{ startDate | year }} - {{ endDate | year
       }}
     </time>
   </div>

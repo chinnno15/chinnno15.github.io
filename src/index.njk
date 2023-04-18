@@ -10,7 +10,7 @@ pagination:
 <main id="main" class="max-w-[60rem] mx-auto px-[2rem] pt-[1rem]">
   <h1 class="my-[16rem] text-[2.4rem] leading-[2.9rem] font-bold" id="about">Hi there! I'm José <span class="sr-only">Oliveros</span> — a
     <mark class="text-[#16a085] bg-transparent">Fullstack Engineer</mark>
-    based in Mexico.
+    from California.
   </h1>
   <div class="fade-in-bottom delay-300">
     <p>I am a Full Stack and React Native Engineer with 12 years of experience in developing high-quality applications.
@@ -19,7 +19,7 @@ pagination:
   </div>
   <div class="mt-[9rem]">
     <h1>Past Work</h1>
-    <div class="grid grid-cols-3 gap-4 mt-[1rem]">
+    <div class="grid md:grid-cols-3 gap-4 mt-[1rem]">
       {% set items = pagination.items | reverse %}
 
       {% for entry in items %}

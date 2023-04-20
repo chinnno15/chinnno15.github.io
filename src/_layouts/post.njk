@@ -5,8 +5,8 @@ layout: "base.njk"
 <div style="background-color: {{ backgroundColor }};" class="mx-auto pt-[1rem] md:pt-[7rem]">
   <figure class="max-w-[40rem] mx-auto">
     <picture class="">
-      <img src="{{ page.url | url }}{{ cover }}" alt="NFORS Exposure App" loading="lazy"
-           decoding="async" >
+      <img src="{{ page.url | url }}{{ cover }}" alt="{{coverAlt}}" loading="lazy"
+           decoding="async" class="mx-auto">
     </picture>
   </figure>
 </div>

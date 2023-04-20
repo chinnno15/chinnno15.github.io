@@ -7,7 +7,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function (eleventyConfig) {
 	// Folders to copy to build dir (See. 1.1)
 	eleventyConfig.addPassthroughCopy("src/static");
-	eleventyConfig.addPassthroughCopy("src/work/**/*.{jpg,jpeg,png}");
+	eleventyConfig.addPassthroughCopy("src/work/**/*.{jpg,jpeg,png,gif}");
 
 	// Filters
 	Object.keys(filters).forEach((filterName) => {

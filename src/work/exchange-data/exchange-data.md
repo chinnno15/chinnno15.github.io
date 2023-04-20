@@ -6,7 +6,7 @@ description: Binance Order Book Data Aggregator
 endDate: Present
 startDate: 03/26/2017
 tags: Python, Pandas, Numpy, InfluxDB, Redis
-index: 2
+index: 3
 title: Binance Order Book Data Aggregator
 ---
 

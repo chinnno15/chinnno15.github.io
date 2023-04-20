@@ -22,13 +22,13 @@ pagination:
     <div class="grid md:grid-cols-3 gap-4 mt-[1rem]">
       {% set items = pagination.items | reverse %}
 
-      {% for entry in items %}
+      {% for entry in items | sort(attribute='data.index')%}
         <a href="{{ entry.url }}">
           <article>
             <Figure style="background-color: {{ entry.data.backgroundColor }};">
               <picture>
                 <img src="{{ entry.url | url }}{{ entry.data.cover }}" width="960" height="582" alt="NFORS Exposure App" loading="lazy"
-                     decoding="async">
+                     decoding="async" class="h-[10em]">
               </picture>
             </Figure>
             <div class="mb-[1rem]">

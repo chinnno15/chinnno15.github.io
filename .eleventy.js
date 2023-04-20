@@ -26,6 +26,10 @@ module.exports = function (eleventyConfig) {
 	// This allows Eleventy to watch for file changes during local development.
 	eleventyConfig.setUseGitIgnore(false);
 
+	eleventyConfig.setDataDeepMerge(true);
+
+	eleventyConfig.addWatchTarget('work');
+
 	eleventyConfig.setLibrary("md", markdownIt({
 		html: true,
 		breaks: true,

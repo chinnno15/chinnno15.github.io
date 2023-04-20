@@ -21,15 +21,23 @@
 }
 
 #post h1 {
-	@apply font-bold;
+	@apply font-bold text-xl;
+}
+
+#post h2 {
+	@apply font-semibold text-lg;
+}
+
+#post h3 {
+	@apply font-semibold text-base;
 }
 
 #post figure {
-	@apply mt-[2em] mb-[2em];
+	@apply mt-[2rem] mb-[2rem];
 }
 
 #post figcaption {
-	@apply mt-[2em];
+	@apply mt-[2rem];
 }
 
 .socials svg{

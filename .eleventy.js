@@ -2,6 +2,7 @@ const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const collections = require('./utils/collections.js')
 const markdownIt = require("markdown-it");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
 	// Folders to copy to build dir (See. 1.1)
@@ -29,6 +30,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addWatchTarget('work');
+
+	eleventyConfig.addPlugin(syntaxHighlight);
 
 	eleventyConfig.setLibrary("md", markdownIt({
 		html: true,

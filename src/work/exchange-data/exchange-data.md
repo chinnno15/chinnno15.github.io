@@ -10,7 +10,7 @@ index: 2
 title: Binance Order Book Data Aggregator
 ---
 
-As part of an effort to apply my Machine Learning knowledge. I make use of Deep Nueral Nets to predict the direction of the price for any cryptocurrency. Binance provides a simple Websockets API which I made use of to create an [Orderbook Data Aggregator](https://github.com/joliveros/exchange-data).
+Binance provides a simple Websockets API which I made use of to create an [Orderbook Data Aggregator](https://github.com/joliveros/exchange-data).
 
 ## Key features
 - Provide the `OrderBookFrame` class which has several parameters for customizing the output which is a Pandas Dataframe.

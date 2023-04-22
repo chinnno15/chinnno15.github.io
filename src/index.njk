@@ -8,27 +8,27 @@ pagination:
 ---
 
 <main id="main" class="max-w-[60rem] mx-auto px-[2rem] pt-[1rem]">
-  <h1 class="my-[16rem] text-[2.4rem] leading-[2.9rem] font-bold" id="about">Hi there! I'm José <span class="sr-only">Oliveros</span> — a
+  <h1 class="my-[16rem] text-[2.4rem] leading-[2.9rem] font-bold animate-fade-in-bottom delay-300" id="about">Hi there! I'm José <span class="sr-only">Oliveros</span> — a
     <mark class="text-[#16a085] bg-transparent">Fullstack Engineer</mark>
     from California.
   </h1>
-  <div class="fade-in-bottom delay-300">
+  <div class="animate-fade-in-bottom delay-300">
     <p>I am a Full Stack and React Native Engineer with 12 years of experience in developing high-quality applications.
       I excel in React, React Native, Node, and Python, and have experience leading Agile teams in a remote
       environment.</p>
   </div>
   <div class="mt-[9rem]">
-    <h1>Past Work</h1>
-    <div class="grid md:grid-cols-3 gap-4 mt-[1rem]">
+    <h1 class="animate-fade-in delay-500">Past Work</h1>
+    <div class="grid md:grid-cols-3 gap-4 mt-[1rem] animate-fade-in delay-500">
       {% set items = pagination.items | reverse %}
 
       {% for entry in items | sort(attribute='data.index')%}
-        <a href="{{ entry.url }}">
+        <a href="{{ entry.url }}" class="">
           <article>
-            <Figure style="background-color: {{ entry.data.backgroundColor }};">
-              <picture>
+            <Figure style="background-color: {{ entry.data.backgroundColor }};" class="rounded-lg overflow-hidden">
+              <picture class="">
                 <img src="{{ entry.url | url }}{{ entry.data.cover }}" width="960" height="582" alt="NFORS Exposure App" loading="lazy"
-                     decoding="async" class="h-[10em]">
+                     decoding="async" class="h-[10em] hover:scale-[0.98] duration-200">
               </picture>
             </Figure>
             <div class="mb-[1rem]">

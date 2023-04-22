@@ -3,14 +3,14 @@ layout: "base.njk"
 ---
 
 <div style="background-color: {{ backgroundColor }};" class="mx-auto pt-[1rem] md:pt-[7rem]">
-  <figure class="max-w-[40rem] mx-auto">
+  <figure class="max-w-[40rem] mx-auto fade-in delay-[3000]">
     <picture class="">
       <img src="{{ page.url | url }}{{ cover }}" alt="{{coverAlt}}" loading="lazy"
            decoding="async" class="mx-auto">
     </picture>
   </figure>
 </div>
-<main id="post" class="max-w-[60rem] space-y-[0rem] mt-[3rem] mx-auto px-[2rem]">
+<main id="post" class="max-w-[60rem] space-y-[0rem] mt-[3rem] mx-auto px-[2rem] fade-in">
   <div class="pb-[4em]">
     <h1 class="float-left font-bold">{{ title }}</h1>
     <time class="float-right pt-[0.0rem]" datetime="{{ startDate | year }}">{{ startDate | year }} - {{ endDate | year

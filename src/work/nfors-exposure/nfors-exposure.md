@@ -9,7 +9,7 @@ index: 0
 title: NFORS Exposure
 ---
 
-# Job Description: Software Developer at i-psdi.org
+# Job Description: Lead Software Developer at i-psdi.org
 
 [i-psdi.org](https://i-psdi.org) is a non-profit organization that builds tools for data analytics used by fire departments across the US. As a software developer, I was responsible for:
 

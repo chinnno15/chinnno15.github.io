@@ -10,7 +10,7 @@ index: 2
 title: Order Book Trading Gym
 ---
 
-In order to make use of the Order Book Data Aggregator in Reinforcement Learning an gym environment is necessary. Inspired by other environments I created [_Order Book Trading Gym_](https://github.com/joliveros/exchange-data/tree/master/tgym/envs/orderbook).
+In order to make use of the Order Book Data Aggregator in Reinforcement Learning an gym environment is necessary. Inspired by other environments I created [_Order Book Trading Gym_](https://github.com/chinnno15/exchange-data/tree/master/tgym/envs/orderbook).
 
 The trading environment includes parameters for tuning which enable the user to train Deep Neural networks to optimize a policy for maximum profit.
 

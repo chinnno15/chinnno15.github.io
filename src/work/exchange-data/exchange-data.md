@@ -10,7 +10,7 @@ index: 3
 title: Binance Order Book Data Aggregator
 ---
 
-Binance provides a simple Websockets API which I made use of to create an [Orderbook Data Aggregator](https://github.com/joliveros/exchange-data).
+Binance provides a simple Websockets API which I made use of to create an [Orderbook Data Aggregator](https://github.com/chinnno15/exchange-data).
 
 ## Key features
 - Provide the `OrderBookFrame` class which has several parameters for customizing the output which is a Pandas Dataframe.

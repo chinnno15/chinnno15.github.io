@@ -1,7 +1,7 @@
 module.exports = {
 	"title": "José Oliveros - Fullstack Developer",
 	"description": "",
-	"url": "https://joliveros.com",
+	"url": "https://chinnno15.github.io",
 	"author": "José Oliveros",
 	"meta_data": {
 		"twitter": "@chuliamis",

@@ -6,7 +6,7 @@ description: Order Book Trading Gym
 endDate: Present
 startDate: 03/26/2017
 tags: Python, Pandas, Numpy
-index: 2
+index: 3
 title: Order Book Trading Gym
 ---
 

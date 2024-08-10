@@ -11,7 +11,7 @@ title: NFORS Exposure
 
 # Job Description: Lead Software Developer at i-psdi.org
 
-[i-psdi.org](https://i-psdi.org) is a non-profit organization that builds tools for data analytics used by fire departments across the US. As a software developer, I was responsible for:
+[adcopy.ai](https://i-psdi.org) is a non-profit organization that builds tools for data analytics used by fire departments across the US. As a software developer, I was responsible for:
 
 - Building new features and UIs in React Native for NFORS Exposure, one of their data analytics tools.
 - Publishing releases, upgrades, and assisting technical support staff in resolving bugs and issues that arose with users.

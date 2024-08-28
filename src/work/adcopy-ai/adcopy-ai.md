@@ -25,14 +25,24 @@ These initiatives resulted in a marked improvement in the quality of generated a
 
 ## Tech Stack:
 
+
 - AWS
-- Pytorch
+- PyTorch
 - Polars
 - Pandas
 - SQL
 - Trino
 - LangChain
-- Node.js/Postgres API
-- React / NextJS
-- Sentry (error logging)
+- Node.js
+- Postgres
+- React
+- Next.js
+- Sentry
 - Facebook SDK
+- Facebook Graph API
+- REST APIs
+- ETL Pipelines
+- Docker
+- Kubernetes
+- Git
+- CI/CD (e.g., GitHub Actions, Jenkins)

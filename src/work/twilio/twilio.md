@@ -7,42 +7,30 @@ endDate: 10/28/2019
 startDate: 10/28/2016
 tags: iOS, Android, Node.js, Django
 index: 4
-title: Twilio Docs
+title: Twilio
 ---
 
 
-# Job Description: Software Developer at Twilio
+# Job Description: Software Engineer at Twilio
 
-At [Twilio](https://www.twilio.com/en-us), I was a software developer responsible for developing the Documentation Platform, which provided customers with seamless access to Twilio's communications API's. The platform was built on [Wagtail](https://wagtail.org/), a CMS built with Django.
+At [Twilio](https://twilio.com), I was integral to the Docs team, creating tutorials for Twilio’s APIs in multiple languages, including PHP, Python, JavaScript, and more. I also maintained the backend infrastructure for our documentation site using Wagtail CMS.
+**Documentation Enhancement**: Led initiatives that boosted the user base by 20%, supporting 250,000 active accounts through enhanced code generation and documentation.
+**Platform Development**: Engineered and maintained the documentation platform using Django and Wagtail CMS, significantly improving content accessibility.
+**Code Generation**: Core contributor to Yoyodyne, an advanced tool that generated code snippets in six languages (PHP, JS, Python, C#, Java, Ruby), accelerating tutorial and guide development by 300% and reducing manual coding.
+**API Development**: Built a code sample generation API, enhancing user engagement and developer productivity.
+**Twilio Quest**: Led the development of Twilio Quest, a gamified training program that drove a 30% increase in user growth, engaging developers with interactive RPG-style coding challenges.
 
-## Key Contributions:
+## Results
 
-### Tutorials and Quickstarts
-
-- Developed Tutorials and Quickstarts for Twilio's communications API's using various programming languages including Python, PHP, Ruby, JavaScript, Java, and C#.
-- These resources helped developers to easily integrate Twilio's API's into their applications.
-
-### Site Redesign
-
-- Part of the team that redesigned Twilio's documentation site to improve the user experience and make it more intuitive to use.
-
-### Code Sample Generation API
-
-- Developed a Code Sample Generation API using Python and Django REST that enabled developers to generate code samples for Twilio's API's in various programming languages.
-
-### Development of TwilioQuest v0
-
-- Developed [TwilioQuest v0](https://github.com/TwilioQuest), a game-based learning platform that teaches developers how to use Twilio's API's.
-- It was built using Vue.js and Wagtail.
-
-### Modification and Extension of Wagtail CMS
-
-- Modified and extended the functionality of Wagtail CMS to improve its performance and make it more suitable for Twilio's use case.
+These efforts drove a 20% increase in Twilio's user base, supported 250,000 active accounts, and led to a 30% surge in user growth through the success of Twilio Quest. The Yoyodyne tool revolutionized our documentation process, speeding up tutorial development by 300% and significantly enhancing efficiency.
 
 ## Tech Stack:
 
-- HTML, JavaScript
-- Wagtail, Django, Python
+- HTML
+- JavaScript
+- Wagtail
+- Django
+- Python
 - Ruby on Rails
 - PHP with Laravel
 - Java with Spring
@@ -50,5 +38,3 @@ At [Twilio](https://www.twilio.com/en-us), I was a software developer responsibl
 - C# with .NET Core
 - AWS, EC2, RDS
 - Jira
-
-Note: The tech stack is inclusive of the technologies used in the development of the Twilio platform and may not be a comprehensive list of all the technologies used at Twilio.

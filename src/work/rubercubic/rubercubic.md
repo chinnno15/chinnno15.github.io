@@ -5,7 +5,7 @@ description: AdHoc Analytics AI Agents for e-commerce data
 endDate: 9/1/2024
 startDate: 12/1/2023
 tags: Python, Polars, Seaborn, PgVector, RAG, LangChain, Streamlit
-index: 0
+index: 1
 title: Rubercubic
 ---
 

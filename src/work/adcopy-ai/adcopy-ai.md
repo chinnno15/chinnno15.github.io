@@ -5,7 +5,7 @@ description: Generative AI Powered Ad Generation and Publishing for Meta.
 endDate: 12/1/2023
 startDate: 10/1/2022
 tags: TypeScript, Python, LangChain, Streamlit
-index: 0
+index: 2
 title: adcopy.ai
 ---
 

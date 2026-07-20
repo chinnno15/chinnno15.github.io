@@ -11,7 +11,7 @@ title: Addie
 
 # Founding Engineer at Addie
 
-As the first and only engineer at [Addie](https://getaddie.com), an AI college counselor, I built the entire product end to end — architecture, infrastructure, product decisions, and on-call — taking it from an empty repo to students in production across 10+ countries.
+As the first engineer at [Addie](https://getaddie.com), an AI college counselor, I built the product from an empty repo to students in production across 10+ countries — owning architecture, infrastructure, product decisions, and on-call. After the first few months I helped grow the engineering team and worked alongside them to scale the platform.
 
 **Agentic AI**: Architected a LangGraph agent system that acts as a personal AI college counselor, guiding students through the application journey while orchestrating tools, memory, and conversation state across every channel.
 **Real-Time Voice**: Built a low-latency, natural-feeling voice experience on WebRTC and the OpenAI Realtime API, designed to hold live spoken conversations at scale.
